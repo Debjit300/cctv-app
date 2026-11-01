@@ -1,0 +1,3792 @@
+{
+  "cam_id": "CAM-05",
+  "name": "Equipment Storage",
+  "duration": 10.0,
+  "fps": 5.0,
+  "total_frames": 50,
+  "frames_meta": [
+    {
+      "frame_idx": 0,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 1,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.82,
+          "box": [
+            465,
+            30,
+            536,
+            217
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.68,
+          "box": [
+            473,
+            64,
+            526,
+            132
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.48,
+          "box": [
+            356,
+            55,
+            403,
+            119
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.42,
+          "box": [
+            478,
+            51,
+            527,
+            132
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.4,
+          "box": [
+            336,
+            7,
+            432,
+            203
+          ]
+        },
+        {
+          "class_id": 4,
+          "label": "HELMET",
+          "conf": 0.28,
+          "box": [
+            382,
+            7,
+            422,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 1,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 5,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.83,
+          "box": [
+            465,
+            30,
+            535,
+            219
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.69,
+          "box": [
+            473,
+            65,
+            525,
+            129
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.35,
+          "box": [
+            476,
+            54,
+            523,
+            128
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.33,
+          "box": [
+            340,
+            15,
+            432,
+            197
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.31,
+          "box": [
+            357,
+            57,
+            414,
+            118
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.27,
+          "box": [
+            606,
+            73,
+            659,
+            148
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.27,
+          "box": [
+            410,
+            44,
+            447,
+            93
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 2,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 2,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.76,
+          "box": [
+            465,
+            30,
+            529,
+            215
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.39,
+          "box": [
+            339,
+            7,
+            440,
+            210
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.33,
+          "box": [
+            360,
+            53,
+            418,
+            118
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.31,
+          "box": [
+            469,
+            65,
+            522,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 3,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.72,
+          "box": [
+            465,
+            30,
+            527,
+            213
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.44,
+          "box": [
+            339,
+            8,
+            439,
+            210
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.41,
+          "box": [
+            464,
+            60,
+            522,
+            126
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.28,
+          "box": [
+            464,
+            62,
+            519,
+            129
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.26,
+          "box": [
+            359,
+            55,
+            417,
+            119
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 4,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 2,
+      "vests": 1,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.67,
+          "box": [
+            464,
+            31,
+            524,
+            214
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.41,
+          "box": [
+            338,
+            5,
+            440,
+            212
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.39,
+          "box": [
+            360,
+            53,
+            418,
+            117
+          ]
+        },
+        {
+          "class_id": 4,
+          "label": "HELMET",
+          "conf": 0.31,
+          "box": [
+            510,
+            248,
+            559,
+            296
+          ]
+        },
+        {
+          "class_id": 4,
+          "label": "HELMET",
+          "conf": 0.31,
+          "box": [
+            383,
+            6,
+            423,
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 5,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.66,
+          "box": [
+            464,
+            32,
+            523,
+            213
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.55,
+          "box": [
+            359,
+            52,
+            417,
+            118
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.46,
+          "box": [
+            339,
+            6,
+            442,
+            212
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.37,
+          "box": [
+            588,
+            75,
+            649,
+            146
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.33,
+          "box": [
+            462,
+            60,
+            517,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 6,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 4,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.7,
+          "box": [
+            464,
+            33,
+            521,
+            213
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.68,
+          "box": [
+            360,
+            56,
+            412,
+            119
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.52,
+          "box": [
+            339,
+            15,
+            439,
+            209
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.39,
+          "box": [
+            586,
+            77,
+            647,
+            142
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.36,
+          "box": [
+            462,
+            59,
+            516,
+            129
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.26,
+          "box": [
+            594,
+            74,
+            642,
+            137
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 7,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 6,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.67,
+          "box": [
+            463,
+            34,
+            522,
+            214
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.66,
+          "box": [
+            361,
+            57,
+            410,
+            117
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.59,
+          "box": [
+            67,
+            320,
+            202,
+            477
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.55,
+          "box": [
+            415,
+            49,
+            446,
+            94
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.47,
+          "box": [
+            340,
+            13,
+            435,
+            207
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.42,
+          "box": [
+            584,
+            77,
+            647,
+            143
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.29,
+          "box": [
+            468,
+            54,
+            515,
+            126
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.29,
+          "box": [
+            462,
+            60,
+            517,
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 8,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 6,
+      "detections": [
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.73,
+          "box": [
+            104,
+            296,
+            236,
+            465
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.69,
+          "box": [
+            464,
+            32,
+            521,
+            212
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.64,
+          "box": [
+            362,
+            56,
+            411,
+            116
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.53,
+          "box": [
+            415,
+            49,
+            446,
+            94
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.46,
+          "box": [
+            340,
+            12,
+            435,
+            207
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.43,
+          "box": [
+            469,
+            56,
+            515,
+            125
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.4,
+          "box": [
+            588,
+            79,
+            647,
+            143
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.32,
+          "box": [
+            462,
+            58,
+            517,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 9,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 5,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.67,
+          "box": [
+            464,
+            31,
+            522,
+            212
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.57,
+          "box": [
+            359,
+            56,
+            412,
+            119
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.52,
+          "box": [
+            144,
+            274,
+            266,
+            436
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.47,
+          "box": [
+            340,
+            16,
+            434,
+            205
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.4,
+          "box": [
+            417,
+            49,
+            445,
+            93
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.38,
+          "box": [
+            593,
+            81,
+            647,
+            144
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.31,
+          "box": [
+            469,
+            54,
+            515,
+            125
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 10,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 4,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.72,
+          "box": [
+            464,
+            42,
+            522,
+            213
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.65,
+          "box": [
+            357,
+            57,
+            411,
+            120
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.51,
+          "box": [
+            337,
+            18,
+            435,
+            206
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.41,
+          "box": [
+            595,
+            81,
+            646,
+            143
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.38,
+          "box": [
+            200,
+            255,
+            322,
+            428
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.3,
+          "box": [
+            187,
+            180,
+            331,
+            480
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.29,
+          "box": [
+            359,
+            56,
+            404,
+            120
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 11,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 5,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.73,
+          "box": [
+            463,
+            42,
+            525,
+            215
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.62,
+          "box": [
+            356,
+            55,
+            414,
+            118
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.55,
+          "box": [
+            339,
+            15,
+            436,
+            205
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.51,
+          "box": [
+            237,
+            232,
+            350,
+            390
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.38,
+          "box": [
+            359,
+            56,
+            405,
+            119
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.34,
+          "box": [
+            240,
+            149,
+            348,
+            480
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.27,
+          "box": [
+            235,
+            230,
+            374,
+            409
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.26,
+          "box": [
+            592,
+            79,
+            645,
+            145
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 12,
+      "violations": 0,
+      "persons": 4,
+      "helmets": 0,
+      "vests": 6,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.72,
+          "box": [
+            463,
+            37,
+            524,
+            215
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.53,
+          "box": [
+            340,
+            18,
+            432,
+            201
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.5,
+          "box": [
+            356,
+            57,
+            411,
+            119
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.41,
+          "box": [
+            279,
+            173,
+            372,
+            480
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.39,
+          "box": [
+            591,
+            82,
+            645,
+            144
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.36,
+          "box": [
+            415,
+            48,
+            447,
+            92
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.33,
+          "box": [
+            258,
+            222,
+            377,
+            392
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.33,
+          "box": [
+            358,
+            57,
+            404,
+            119
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.3,
+          "box": [
+            264,
+            225,
+            378,
+            367
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.28,
+          "box": [
+            257,
+            152,
+            384,
+            480
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 13,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.72,
+          "box": [
+            464,
+            35,
+            522,
+            216
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.48,
+          "box": [
+            280,
+            216,
+            403,
+            375
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.47,
+          "box": [
+            341,
+            22,
+            432,
+            200
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.43,
+          "box": [
+            357,
+            59,
+            409,
+            118
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.31,
+          "box": [
+            358,
+            57,
+            403,
+            118
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.26,
+          "box": [
+            356,
+            31,
+            408,
+            183
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 14,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 4,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.69,
+          "box": [
+            464,
+            33,
+            522,
+            215
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.54,
+          "box": [
+            417,
+            49,
+            447,
+            92
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.53,
+          "box": [
+            300,
+            149,
+            406,
+            480
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.51,
+          "box": [
+            358,
+            59,
+            409,
+            119
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.46,
+          "box": [
+            345,
+            20,
+            429,
+            193
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.37,
+          "box": [
+            358,
+            57,
+            403,
+            118
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.37,
+          "box": [
+            292,
+            194,
+            400,
+            339
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 15,
+      "violations": 0,
+      "persons": 4,
+      "helmets": 0,
+      "vests": 2,
+      "detections": [
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.71,
+          "box": [
+            359,
+            57,
+            411,
+            119
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.67,
+          "box": [
+            463,
+            35,
+            524,
+            215
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.52,
+          "box": [
+            415,
+            49,
+            447,
+            93
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.45,
+          "box": [
+            352,
+            20,
+            424,
+            175
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.33,
+          "box": [
+            314,
+            124,
+            417,
+            480
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.29,
+          "box": [
+            292,
+            112,
+            422,
+            480
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 16,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 5,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.7,
+          "box": [
+            463,
+            34,
+            523,
+            216
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.51,
+          "box": [
+            359,
+            54,
+            415,
+            114
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.37,
+          "box": [
+            468,
+            57,
+            514,
+            127
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.35,
+          "box": [
+            323,
+            104,
+            435,
+            480
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.33,
+          "box": [
+            411,
+            49,
+            447,
+            95
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.3,
+          "box": [
+            315,
+            103,
+            460,
+            478
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.27,
+          "box": [
+            328,
+            187,
+            437,
+            335
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.27,
+          "box": [
+            591,
+            83,
+            641,
+            143
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 17,
+      "violations": 0,
+      "persons": 1,
+      "helmets": 0,
+      "vests": 6,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.65,
+          "box": [
+            464,
+            35,
+            523,
+            218
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.54,
+          "box": [
+            358,
+            54,
+            414,
+            114
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.5,
+          "box": [
+            412,
+            48,
+            446,
+            93
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.36,
+          "box": [
+            462,
+            62,
+            515,
+            131
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.32,
+          "box": [
+            468,
+            54,
+            513,
+            127
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.29,
+          "box": [
+            358,
+            56,
+            404,
+            116
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.28,
+          "box": [
+            592,
+            80,
+            644,
+            143
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 18,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.7,
+          "box": [
+            464,
+            42,
+            525,
+            216
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.42,
+          "box": [
+            349,
+            94,
+            455,
+            459
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.41,
+          "box": [
+            464,
+            66,
+            518,
+            129
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.38,
+          "box": [
+            592,
+            80,
+            645,
+            144
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.37,
+          "box": [
+            409,
+            47,
+            445,
+            95
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 19,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.7,
+          "box": [
+            464,
+            39,
+            526,
+            214
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.51,
+          "box": [
+            466,
+            65,
+            519,
+            129
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.4,
+          "box": [
+            459,
+            65,
+            522,
+            126
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.3,
+          "box": [
+            350,
+            98,
+            451,
+            462
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.29,
+          "box": [
+            358,
+            52,
+            420,
+            116
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 20,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 1,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.74,
+          "box": [
+            463,
+            46,
+            525,
+            213
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.46,
+          "box": [
+            464,
+            67,
+            518,
+            129
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.35,
+          "box": [
+            328,
+            81,
+            445,
+            457
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.27,
+          "box": [
+            336,
+            75,
+            447,
+            466
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 21,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 5,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.73,
+          "box": [
+            462,
+            37,
+            527,
+            216
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.54,
+          "box": [
+            330,
+            88,
+            441,
+            454
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.48,
+          "box": [
+            464,
+            64,
+            519,
+            130
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.41,
+          "box": [
+            459,
+            65,
+            522,
+            126
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.36,
+          "box": [
+            357,
+            56,
+            417,
+            118
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.31,
+          "box": [
+            411,
+            47,
+            445,
+            94
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.31,
+          "box": [
+            358,
+            55,
+            404,
+            120
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.27,
+          "box": [
+            337,
+            71,
+            442,
+            460
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 22,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 4,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.68,
+          "box": [
+            463,
+            42,
+            524,
+            212
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.46,
+          "box": [
+            463,
+            63,
+            518,
+            129
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.38,
+          "box": [
+            357,
+            53,
+            417,
+            117
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.37,
+          "box": [
+            333,
+            80,
+            441,
+            452
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.34,
+          "box": [
+            358,
+            55,
+            404,
+            119
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.3,
+          "box": [
+            411,
+            47,
+            446,
+            95
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.26,
+          "box": [
+            315,
+            76,
+            452,
+            443
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 23,
+      "violations": 0,
+      "persons": 1,
+      "helmets": 0,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.69,
+          "box": [
+            463,
+            47,
+            526,
+            215
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.47,
+          "box": [
+            356,
+            54,
+            415,
+            118
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.46,
+          "box": [
+            464,
+            66,
+            518,
+            128
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.28,
+          "box": [
+            359,
+            57,
+            403,
+            117
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 24,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 2,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.59,
+          "box": [
+            462,
+            35,
+            527,
+            218
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.49,
+          "box": [
+            350,
+            72,
+            455,
+            433
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.46,
+          "box": [
+            463,
+            63,
+            517,
+            131
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.41,
+          "box": [
+            356,
+            51,
+            422,
+            118
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 25,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 4,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.56,
+          "box": [
+            467,
+            35,
+            523,
+            213
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.54,
+          "box": [
+            353,
+            75,
+            467,
+            440
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.45,
+          "box": [
+            464,
+            63,
+            517,
+            128
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.43,
+          "box": [
+            360,
+            147,
+            457,
+            279
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.4,
+          "box": [
+            354,
+            52,
+            421,
+            119
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.34,
+          "box": [
+            368,
+            86,
+            452,
+            439
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.26,
+          "box": [
+            359,
+            57,
+            404,
+            116
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 26,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 6,
+      "detections": [
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.59,
+          "box": [
+            467,
+            66,
+            517,
+            128
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.56,
+          "box": [
+            467,
+            43,
+            526,
+            212
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.48,
+          "box": [
+            352,
+            72,
+            473,
+            440
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.46,
+          "box": [
+            353,
+            147,
+            459,
+            273
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.41,
+          "box": [
+            354,
+            52,
+            421,
+            119
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.38,
+          "box": [
+            364,
+            140,
+            446,
+            273
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.28,
+          "box": [
+            465,
+            70,
+            520,
+            127
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.26,
+          "box": [
+            366,
+            138,
+            452,
+            269
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 27,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 4,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.72,
+          "box": [
+            358,
+            84,
+            470,
+            421
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.6,
+          "box": [
+            467,
+            68,
+            517,
+            129
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.58,
+          "box": [
+            465,
+            41,
+            528,
+            216
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.45,
+          "box": [
+            358,
+            57,
+            415,
+            119
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.41,
+          "box": [
+            460,
+            65,
+            522,
+            127
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.33,
+          "box": [
+            359,
+            59,
+            401,
+            117
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 28,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 6,
+      "detections": [
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.74,
+          "box": [
+            467,
+            68,
+            517,
+            128
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.61,
+          "box": [
+            357,
+            85,
+            476,
+            423
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.56,
+          "box": [
+            375,
+            141,
+            450,
+            270
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.55,
+          "box": [
+            468,
+            44,
+            525,
+            211
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.43,
+          "box": [
+            357,
+            56,
+            413,
+            119
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.34,
+          "box": [
+            363,
+            150,
+            459,
+            275
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.29,
+          "box": [
+            463,
+            66,
+            522,
+            126
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.25,
+          "box": [
+            359,
+            59,
+            402,
+            116
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 29,
+      "violations": 0,
+      "persons": 1,
+      "helmets": 0,
+      "vests": 6,
+      "detections": [
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.65,
+          "box": [
+            357,
+            53,
+            414,
+            119
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.49,
+          "box": [
+            380,
+            153,
+            467,
+            277
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.46,
+          "box": [
+            474,
+            41,
+            522,
+            211
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.43,
+          "box": [
+            468,
+            69,
+            515,
+            128
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.34,
+          "box": [
+            414,
+            45,
+            446,
+            92
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.28,
+          "box": [
+            593,
+            87,
+            643,
+            144
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.28,
+          "box": [
+            359,
+            56,
+            404,
+            118
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 30,
+      "violations": 0,
+      "persons": 4,
+      "helmets": 0,
+      "vests": 5,
+      "detections": [
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.7,
+          "box": [
+            356,
+            54,
+            415,
+            119
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.69,
+          "box": [
+            378,
+            87,
+            494,
+            440
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.5,
+          "box": [
+            391,
+            90,
+            478,
+            437
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.48,
+          "box": [
+            395,
+            145,
+            474,
+            287
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.47,
+          "box": [
+            465,
+            67,
+            516,
+            129
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.44,
+          "box": [
+            393,
+            159,
+            478,
+            273
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.39,
+          "box": [
+            477,
+            40,
+            519,
+            206
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.36,
+          "box": [
+            343,
+            12,
+            417,
+            181
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.29,
+          "box": [
+            358,
+            55,
+            405,
+            119
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 31,
+      "violations": 0,
+      "persons": 4,
+      "helmets": 0,
+      "vests": 4,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.53,
+          "box": [
+            382,
+            97,
+            500,
+            435
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.49,
+          "box": [
+            399,
+            110,
+            486,
+            430
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.41,
+          "box": [
+            399,
+            152,
+            475,
+            288
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.38,
+          "box": [
+            356,
+            56,
+            415,
+            118
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.36,
+          "box": [
+            342,
+            18,
+            420,
+            184
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.35,
+          "box": [
+            395,
+            165,
+            482,
+            271
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.33,
+          "box": [
+            358,
+            57,
+            405,
+            118
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.32,
+          "box": [
+            478,
+            43,
+            518,
+            206
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 32,
+      "violations": 0,
+      "persons": 4,
+      "helmets": 0,
+      "vests": 4,
+      "detections": [
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.5,
+          "box": [
+            472,
+            76,
+            518,
+            128
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.48,
+          "box": [
+            386,
+            96,
+            493,
+            431
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.47,
+          "box": [
+            356,
+            56,
+            414,
+            117
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.4,
+          "box": [
+            400,
+            111,
+            480,
+            429
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.33,
+          "box": [
+            341,
+            16,
+            422,
+            185
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.32,
+          "box": [
+            479,
+            34,
+            518,
+            209
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.32,
+          "box": [
+            357,
+            57,
+            405,
+            119
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.28,
+          "box": [
+            470,
+            66,
+            513,
+            134
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 33,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.7,
+          "box": [
+            473,
+            75,
+            519,
+            131
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.57,
+          "box": [
+            397,
+            103,
+            477,
+            430
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.52,
+          "box": [
+            356,
+            57,
+            404,
+            121
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.45,
+          "box": [
+            354,
+            57,
+            412,
+            119
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.38,
+          "box": [
+            340,
+            24,
+            422,
+            188
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.34,
+          "box": [
+            382,
+            86,
+            494,
+            435
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 34,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.72,
+          "box": [
+            474,
+            73,
+            518,
+            128
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.45,
+          "box": [
+            357,
+            58,
+            405,
+            120
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.38,
+          "box": [
+            353,
+            55,
+            414,
+            119
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.35,
+          "box": [
+            340,
+            20,
+            422,
+            189
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.34,
+          "box": [
+            397,
+            101,
+            470,
+            425
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 35,
+      "violations": 0,
+      "persons": 0,
+      "helmets": 0,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.68,
+          "box": [
+            470,
+            71,
+            518,
+            129
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.51,
+          "box": [
+            358,
+            56,
+            405,
+            121
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.3,
+          "box": [
+            353,
+            54,
+            417,
+            118
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 36,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.44,
+          "box": [
+            358,
+            54,
+            406,
+            121
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.36,
+          "box": [
+            470,
+            77,
+            518,
+            130
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.32,
+          "box": [
+            353,
+            54,
+            419,
+            119
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.3,
+          "box": [
+            481,
+            46,
+            518,
+            206
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.28,
+          "box": [
+            339,
+            20,
+            426,
+            186
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 37,
+      "violations": 0,
+      "persons": 4,
+      "helmets": 0,
+      "vests": 2,
+      "detections": [
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.44,
+          "box": [
+            354,
+            53,
+            419,
+            118
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.44,
+          "box": [
+            365,
+            94,
+            472,
+            442
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.37,
+          "box": [
+            358,
+            55,
+            407,
+            120
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.34,
+          "box": [
+            355,
+            82,
+            483,
+            440
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.32,
+          "box": [
+            475,
+            41,
+            520,
+            210
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.29,
+          "box": [
+            342,
+            18,
+            421,
+            177
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 38,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.45,
+          "box": [
+            365,
+            92,
+            469,
+            437
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.42,
+          "box": [
+            355,
+            53,
+            421,
+            119
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.37,
+          "box": [
+            348,
+            77,
+            482,
+            442
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.35,
+          "box": [
+            469,
+            76,
+            519,
+            129
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.3,
+          "box": [
+            478,
+            37,
+            516,
+            203
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.25,
+          "box": [
+            358,
+            56,
+            405,
+            119
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 39,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 1,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.56,
+          "box": [
+            359,
+            88,
+            466,
+            445
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.42,
+          "box": [
+            345,
+            95,
+            485,
+            441
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.35,
+          "box": [
+            358,
+            52,
+            421,
+            118
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 40,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 1,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.57,
+          "box": [
+            361,
+            80,
+            459,
+            443
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.54,
+          "box": [
+            343,
+            89,
+            479,
+            442
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.53,
+          "box": [
+            470,
+            39,
+            526,
+            215
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.36,
+          "box": [
+            367,
+            163,
+            461,
+            282
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 41,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 2,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.59,
+          "box": [
+            467,
+            34,
+            530,
+            221
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.4,
+          "box": [
+            592,
+            79,
+            644,
+            146
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.38,
+          "box": [
+            345,
+            87,
+            471,
+            443
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.34,
+          "box": [
+            359,
+            86,
+            455,
+            449
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.27,
+          "box": [
+            468,
+            74,
+            519,
+            130
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 42,
+      "violations": 0,
+      "persons": 1,
+      "helmets": 0,
+      "vests": 2,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.66,
+          "box": [
+            464,
+            35,
+            529,
+            222
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.45,
+          "box": [
+            588,
+            75,
+            648,
+            147
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.28,
+          "box": [
+            468,
+            75,
+            519,
+            132
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 43,
+      "violations": 0,
+      "persons": 2,
+      "helmets": 0,
+      "vests": 2,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.7,
+          "box": [
+            464,
+            38,
+            528,
+            220
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.43,
+          "box": [
+            591,
+            74,
+            649,
+            148
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.37,
+          "box": [
+            324,
+            75,
+            444,
+            452
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.35,
+          "box": [
+            467,
+            75,
+            519,
+            133
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 44,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 4,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.75,
+          "box": [
+            463,
+            36,
+            530,
+            222
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.62,
+          "box": [
+            322,
+            81,
+            444,
+            458
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.57,
+          "box": [
+            468,
+            72,
+            521,
+            131
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.31,
+          "box": [
+            334,
+            66,
+            444,
+            469
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.31,
+          "box": [
+            384,
+            35,
+            444,
+            101
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.3,
+          "box": [
+            594,
+            79,
+            649,
+            148
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.27,
+          "box": [
+            328,
+            155,
+            432,
+            304
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 45,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 1,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.72,
+          "box": [
+            464,
+            31,
+            529,
+            223
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.39,
+          "box": [
+            318,
+            85,
+            447,
+            476
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.37,
+          "box": [
+            467,
+            72,
+            519,
+            130
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.34,
+          "box": [
+            327,
+            157,
+            431,
+            308
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.29,
+          "box": [
+            336,
+            64,
+            444,
+            477
+          ]
+        },
+        {
+          "class_id": 4,
+          "label": "HELMET",
+          "conf": 0.28,
+          "box": [
+            480,
+            31,
+            520,
+            63
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.27,
+          "box": [
+            595,
+            81,
+            647,
+            148
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 46,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 4,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.74,
+          "box": [
+            463,
+            30,
+            528,
+            223
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.56,
+          "box": [
+            324,
+            109,
+            434,
+            480
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.33,
+          "box": [
+            596,
+            78,
+            646,
+            148
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.31,
+          "box": [
+            466,
+            71,
+            518,
+            128
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.28,
+          "box": [
+            597,
+            77,
+            657,
+            147
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.27,
+          "box": [
+            318,
+            174,
+            433,
+            337
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.26,
+          "box": [
+            324,
+            84,
+            447,
+            470
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 47,
+      "violations": 0,
+      "persons": 3,
+      "helmets": 0,
+      "vests": 3,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.79,
+          "box": [
+            464,
+            26,
+            529,
+            223
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.46,
+          "box": [
+            323,
+            112,
+            430,
+            480
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.45,
+          "box": [
+            463,
+            65,
+            520,
+            127
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.42,
+          "box": [
+            320,
+            179,
+            435,
+            341
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.38,
+          "box": [
+            590,
+            78,
+            647,
+            146
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.28,
+          "box": [
+            315,
+            90,
+            449,
+            472
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 48,
+      "violations": 0,
+      "persons": 1,
+      "helmets": 1,
+      "vests": 1,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.79,
+          "box": [
+            463,
+            24,
+            529,
+            224
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.46,
+          "box": [
+            464,
+            66,
+            520,
+            127
+          ]
+        },
+        {
+          "class_id": 4,
+          "label": "HELMET",
+          "conf": 0.27,
+          "box": [
+            343,
+            133,
+            394,
+            185
+          ]
+        }
+      ]
+    },
+    {
+      "frame_idx": 49,
+      "violations": 0,
+      "persons": 4,
+      "helmets": 0,
+      "vests": 1,
+      "detections": [
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.74,
+          "box": [
+            464,
+            32,
+            528,
+            222
+          ]
+        },
+        {
+          "class_id": 7,
+          "label": "VEST",
+          "conf": 0.35,
+          "box": [
+            347,
+            38,
+            447,
+            117
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.32,
+          "box": [
+            304,
+            126,
+            414,
+            480
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.28,
+          "box": [
+            306,
+            135,
+            419,
+            480
+          ]
+        },
+        {
+          "class_id": 6,
+          "label": "PERSON",
+          "conf": 0.25,
+          "box": [
+            370,
+            13,
+            452,
+            187
+          ]
+        }
+      ]
+    }
+  ]
+}

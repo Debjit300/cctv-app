@@ -1,0 +1,47 @@
+[
+  {
+    "cam_id": "CAM-01",
+    "name": "Site Boundary West",
+    "frames": 50
+  },
+  {
+    "cam_id": "CAM-02",
+    "name": "Loading Dock Area",
+    "frames": 50
+  },
+  {
+    "cam_id": "CAM-03",
+    "name": "Main Gate Corridor",
+    "frames": 50
+  },
+  {
+    "cam_id": "CAM-04",
+    "name": "Scaffold Tower A",
+    "frames": 50
+  },
+  {
+    "cam_id": "CAM-05",
+    "name": "Equipment Storage",
+    "frames": 50
+  },
+  {
+    "cam_id": "CAM-06",
+    "name": "Material Staging",
+    "frames": 50
+  },
+  {
+    "cam_id": "CAM-07",
+    "name": "Basement Entrance",
+    "frames": 50
+  },
+  {
+    "cam_id": "CAM-08",
+    "name": "Excavation Zone",
+    "frames": 50
+  },
+  {
+    "cam_id": "CAM-09",
+    "name": "Overhead Crane Post",
+    "frames": 50
+  }
+]

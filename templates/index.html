@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SENTINEL-AI | Construction Site CCTV Monitoring</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <!-- Top Navigation Header -->
+  <header class="top-nav">
+    <div class="brand">
+      <div class="brand-radar">
+        <span class="radar-dot"></span>
+      </div>
+      <div>
+        <div class="brand-title">SENTINEL-AI <span>v2.6</span></div>
+        <div class="brand-subtitle">PPE SAFETY & SITE SURVEILLANCE SYSTEM</div>
+      </div>
+    </div>
+
+    <!-- Center System Status -->
+    <div class="system-status">
+      <div class="status-pill status-live">
+        <span class="pulse-led red-led"></span> LIVE 5 FPS
+      </div>
+      <div class="status-pill">
+        <span class="pulse-led green-led"></span> YOLO26s ACTIVE
+      </div>
+      <div class="clock-display" id="live-clock">
+        00:00:00 UTC
+      </div>
+    </div>
+
+    <!-- Right Controls -->
+    <div class="top-controls">
+      <!-- Grid Page Switcher: 4 videos per page -->
+      <div class="pagination-bar">
+        <span class="page-label">CAMERA FEED:</span>
+        <button class="page-btn active" id="btn-page-1" onclick="switchPage(1)">
+          P1 (CAM 1-4)
+        </button>
+        <button class="page-btn" id="btn-page-2" onclick="switchPage(2)">
+          P2 (CAM 5-8)
+        </button>
+        <button class="page-btn" id="btn-page-3" onclick="switchPage(3)">
+          P3 (CAM 9)
+        </button>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <button class="hud-action-btn" onclick="toggleFullscreen()" title="Toggle Fullscreen">
+        ⛶ FULLSCREEN
+      </button>
+    </div>
+  </header>
+
+  <!-- Metrics Bar -->
+  <div class="metrics-ticker">
+    <div class="metric-item">
+      <span class="m-label">TOTAL CAMERAS</span>
+      <span class="m-val" id="stat-total-cams">9 FEEDS</span>
+    </div>
+    <div class="metric-item">
+      <span class="m-label">ACTIVE GRID</span>
+      <span class="m-val text-cyan" id="stat-active-grid">4 STREAMS</span>
+    </div>
+    <div class="metric-item">
+      <span class="m-label">MODEL INFERENCE</span>
+      <span class="m-val text-green">YOLO26s @ 640px</span>
+    </div>
+    <div class="metric-item">
+      <span class="m-label">STREAM PROTOCOL</span>
+      <span class="m-val text-cyan">MJPEG 5 FPS LOOP</span>
+    </div>
+    <div class="metric-item">
+      <span class="m-label">COMPLIANCE CRITERIA</span>
+      <span class="m-val text-yellow">HELMET + HI-VIS VEST</span>
+    </div>
+  </div>
+
+  <!-- Main CCTV Feed Container -->
+  <main class="cctv-stage">
+    <!-- 2x2 CCTV Grid Container (4 videos per page) -->
+    <div class="cctv-grid" id="cctv-grid">
+      <!-- Dynamically filled with 4 cameras per active page -->
+    </div>
+  </main>
+
+  <!-- Bottom Legend and Incident Ticker -->
+  <footer class="hud-footer">
+    <div class="legend-bar">
+      <span class="legend-title">PPE DETECTION CLASSIFIERS:</span>
+      <span class="legend-tag tag-person"><span class="dot"></span> PERSON</span>
+      <span class="legend-tag tag-helmet"><span class="dot"></span> HELMET (PASSED)</span>
+      <span class="legend-tag tag-vest"><span class="dot"></span> VEST (PASSED)</span>
+      <span class="legend-tag tag-violation"><span class="dot"></span> NO HELMET (VIOLATION)</span>
+      <span class="legend-tag tag-no-vest"><span class="dot"></span> NO VEST (VIOLATION)</span>
+    </div>
+
+    <div class="feed-pagination-indicator">
+      <button class="nav-arrow" onclick="prevPage()">◀ PREV</button>
+      <span id="page-indicator-text">PAGE 1 OF 3 (CAM 01 - 04)</span>
+      <button class="nav-arrow" onclick="nextPage()">NEXT ▶</button>
+    </div>
+  </footer>
+
+  <!-- Modal for Single-Cam Focus View -->
+  <div class="modal-overlay" id="cam-modal" onclick="closeModal(event)">
+    <div class="modal-card" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div id="modal-cam-title">CAM-01 | ENLARGED INSPECTION VIEW</div>
+        <button class="modal-close" onclick="closeModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <img id="modal-stream-img" src="" alt="Enlarged Stream">
+      </div>
+      <div class="modal-footer">
+        <span class="modal-info">INSPECTING AT NATIVE 5 FPS LOOP WITH REAL-TIME BOUNDING BOXES</span>
+        <button class="hud-action-btn" onclick="closeModal()">DISMISS</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
