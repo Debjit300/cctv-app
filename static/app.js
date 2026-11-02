@@ -1,13 +1,13 @@
-// CCTV Dashboard Controller
+// CCTV Live Dashboard Controller
 let currentPage = 1;
 const CAMS_PER_PAGE = 4;
 let camerasData = [];
 
-// Initialize
+// Initialize Dashboard
 document.addEventListener("DOMContentLoaded", () => {
   initClock();
   fetchCameras();
-  
+
   // Keyboard navigation for CCTV pagination
   window.addEventListener("keydown", (e) => {
     if (e.key === "ArrowLeft") prevPage();
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Live UTC/Local CCTV Clock
+// Real-Time Clock
 function initClock() {
   const clockEl = document.getElementById("live-clock");
   const update = () => {
@@ -44,12 +44,18 @@ async function fetchCameras() {
 // Switch pages (Page 1: CAM 1-4, Page 2: CAM 5-8, Page 3: CAM 9)
 function switchPage(pageNum) {
   currentPage = pageNum;
-  
+
+  // Stop previous page image requests by disconnecting them first
+  const existingImages = document.querySelectorAll(".cctv-stream-img");
+  existingImages.forEach(img => {
+    img.src = "";
+  });
+
   // Update button states
   document.querySelectorAll(".page-btn").forEach((btn, idx) => {
     btn.classList.toggle("active", idx + 1 === pageNum);
   });
-  
+
   renderCurrentPage();
 }
 
@@ -67,13 +73,12 @@ function nextPage() {
 function renderCurrentPage() {
   const gridEl = document.getElementById("cctv-grid");
   gridEl.innerHTML = "";
-  
+
   const startIdx = (currentPage - 1) * CAMS_PER_PAGE;
   const endIdx = startIdx + CAMS_PER_PAGE;
   const pageCams = camerasData.slice(startIdx, endIdx);
-  
+
   // Page indicator update
-  const totalCams = camerasData.length;
   const indText = document.getElementById("page-indicator-text");
   if (pageCams.length > 0) {
     const firstCam = pageCams[0].id;
@@ -87,14 +92,18 @@ function renderCurrentPage() {
   } else {
     gridEl.classList.remove("single-item");
   }
-  
+
   document.getElementById("stat-active-grid").innerText = `${pageCams.length} STREAMS`;
 
+  // Render cards
   pageCams.forEach(cam => {
     const card = document.createElement("div");
     card.className = `cctv-card ${cam.has_violations ? "violation-active" : ""}`;
     card.id = `card-${cam.id}`;
-    
+
+    // Unique timestamp parameter to prevent browser cache stalls on page transitions
+    const streamUrl = `/stream/${cam.id}?t=${Date.now()}`;
+
     card.innerHTML = `
       <!-- Top HUD -->
       <div class="card-top-hud">
@@ -102,12 +111,12 @@ function renderCurrentPage() {
           <span class="cam-id">${cam.id}</span>
           <span class="cam-loc">${cam.name}</span>
         </div>
-        <div class="cam-fps-badge">5 FPS ● LOOP</div>
+        <div class="cam-fps-badge">5 FPS ● LIVE</div>
       </div>
 
       <!-- Video Stream Area -->
       <div class="card-video-wrap" onclick="openModal('${cam.id}', '${cam.name}')" title="Click to enlarge">
-        <img src="/stream/${cam.id}" alt="${cam.id} Stream" loading="lazy">
+        <img class="cctv-stream-img" src="${streamUrl}" alt="${cam.id} Stream">
         <div class="cctv-scanline"></div>
       </div>
 
@@ -134,9 +143,9 @@ function openModal(camId, camName) {
   const modal = document.getElementById("cam-modal");
   const modalTitle = document.getElementById("modal-cam-title");
   const modalImg = document.getElementById("modal-stream-img");
-  
+
   modalTitle.innerText = `${camId} | ${camName.toUpperCase()} - LIVE 5 FPS INSPECTION`;
-  modalImg.src = `/stream/${camId}`;
+  modalImg.src = `/stream/${camId}?inspect=1&t=${Date.now()}`;
   modal.classList.add("active");
 }
 
